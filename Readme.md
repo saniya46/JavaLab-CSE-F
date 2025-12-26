@@ -24,4 +24,4 @@ System.out.println("default value of boolean: " + obj.bool);
 }
 ```
 #OUTPUT
-![output of primitive](exp1a.png)
+![output of primitive](exp1a.peg)
