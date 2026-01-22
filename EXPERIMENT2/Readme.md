@@ -23,7 +23,7 @@ System.out.println("sum: " + result);
 
 # experiment2b
 ## TITLE: 2b.) java program implement method overloading
-````
+```
 class OverloadExample {
 int add(int a, int b) {
 return (a + b);
@@ -44,8 +44,5 @@ System.out.println("Result of adding two double values: " + sum2);
 System.out.println("Result of adding three integers: " + sum3);
 }
 }
-```
-# output
-<img width="1438" height="403" alt="2b  output" src="https://github.com/user-attachments/assets/f6739d69-5121-4650-8aab-6b779711df8c" />
-
-
+ ```
+<img width="1438" height="403" alt="2b  output" src="https://github.com/user-attachments/assets/d733f312-e55e-4ed4-a25b-8bc988b02ee5" />
