@@ -46,3 +46,32 @@ System.out.println("Result of adding three integers: " + sum3);
 }
  ```
 <img width="1438" height="403" alt="2b  output" src="https://github.com/user-attachments/assets/d733f312-e55e-4ed4-a25b-8bc988b02ee5" />
+
+
+# experiment2c
+## TITLE:2C.) java program implement constructor
+```
+class Student {
+String name;
+int age;
+int marks;
+Student (String n, int a, int m) {
+name = n;
+age = a;
+marks = m;
+}
+void display ( ) {
+System.out.println ("Name: " + name);
+System.out.println ("Age: " + age);
+System.out.println ("Marks: " + marks);
+}
+public static void main(String[] args) {
+Student S1 = new Student ("Alice", 20, 85);
+S1.display ( );
+}
+}
+```
+# output
+
+<img width="390" height="159" alt="2c output" src="https://github.com/user-attachments/assets/a43ab9d9-5487-4915-bee9-7489d2e83fdf" />
+
