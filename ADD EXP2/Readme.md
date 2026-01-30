@@ -43,4 +43,5 @@ f.generate();
 }
 ```
 # output
-<img width="358" height="31" alt="3A ADD OUTPUT" src="https://github.com/user-attachments/assets/6e4ce643-0886-4f78-b0f0-d740ea551ab7" />
+<img width="504" height="123" alt="2 OUTPUT" src="https://github.com/user-attachments/assets/2b7748ca-0880-4417-8436-b73516324bed" />
+
