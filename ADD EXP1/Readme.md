@@ -20,3 +20,4 @@ sc.close();
 }
 ```
 # output
+<img width="289" height="58" alt="1 ADD OUTPUT (1)" src="https://github.com/user-attachments/assets/30cfba79-fdf3-40e9-aa41-466cd86dcf23" />
