@@ -84,3 +84,91 @@ public class TestSort {
 ```
 # output
 ![5a output](https://github.com/user-attachments/assets/46ad5b2d-6a92-49c3-9b71-255dcce51a4c)
+
+
+
+
+
+
+
+
+
+
+
+## title 5b)implements runtime polymorphism
+```
+// Base class
+class Vehicle {
+
+    void run() {
+        System.out.println("Vehicle is running");
+    }
+}
+
+// Subclass Car
+class Car extends Vehicle {
+
+    @Override
+    void run() {
+        System.out.println("Car is running on four wheels");
+    }
+}
+
+// Subclass Bike
+class Bike extends Vehicle {
+
+    @Override
+    void run() {
+        System.out.println("Bike is running on two wheels");
+    }
+}
+
+// Main class
+public class TestVehicle {
+
+    public static void main(String[] args) {
+
+        Vehicle v;   // base class reference
+
+        v = new Car();
+        v.run();     // calls Car's run()
+
+        v = new Bike();
+        v.run();     // calls Bike's run()
+
+        v = new Vehicle();
+        v.run();     // calls Vehicle's run()
+    }
+}
+```
+# output
+![5b output](https://github.com/user-attachments/assets/3e865759-28cc-44c4-9b27-b0c550129108)
+
+
+
+
+
+## stringBuffer to delete,remove character
+```
+public class StringBufferDeleteDemo {
+
+    public static void main(String[] args) {
+
+        // Create StringBuffer object
+        StringBuffer sb = new StringBuffer("Java Programming");
+
+        // Display original string
+        System.out.println("Original String: " + sb);
+
+        // Delete a single character at index 4
+        sb.deleteCharAt(4);
+        System.out.println("After deleting character at index 4: " + sb);
+
+        // Delete a range of characters from index 0 to 4
+        sb.delete(0, 4);
+        System.out.println("After deleting characters from index 0 to 4: " + sb);
+    }
+}
+```
+# output
+![WhatsApp Image 2026-02-13 at 4 03 30 PM](https://github.com/user-attachments/assets/69a67457-b938-472d-8c3c-c369494e55be)
