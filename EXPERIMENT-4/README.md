@@ -167,3 +167,71 @@ public class TestVehicle {
 ```
 # output
 ![4b output](https://github.com/user-attachments/assets/554e5334-a0ab-4ed6-812d-dff93d1296e2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Experiment 4c)
+## Title 4c)Construct abstract class in java to find areas of different shapes
+```
+abstract class Figure {
+    double dim1;
+    double dim2;
+
+    Figure(double dim1, double dim2) {
+        this.dim1 = dim1;
+        this.dim2 = dim2;
+    }
+
+    abstract double area();
+}
+
+// Rectangle class
+class Rectangle extends Figure {
+
+    Rectangle(double length, double breadth) {
+        super(length, breadth);
+    }
+
+    // Override area method
+    double area() {
+        return dim1 * dim2;
+    }
+}
+
+// Triangle class
+class Triangle extends Figure {
+
+    Triangle(double base, double height) {
+        super(base, height);
+    }
+
+    // Override area method
+    double area() {
+        return 0.5 * dim1 * dim2;
+    }
+}
+
+// Main class
+public class TestFigure {
+    public static void main(String[] args) {
+
+        Figure rect = new Rectangle(10, 5);
+        Figure tri = new Triangle(8, 6);
+
+        System.out.println("Area of Rectangle: " + rect.area());
+        System.out.println("Area of Triangle: " + tri.area());
+    }
+}
+```
+# output
+![WhatsApp Image 2026-02-13 at 11 23 11 AM](https://github.com/user-attachments/assets/6f8ac7c2-12ae-47ce-aec9-d01cfa8db8fb)
